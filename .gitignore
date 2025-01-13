@@ -1,0 +1,6 @@
+# Ignore files in src directory
+src/
+.idea
+*~
+env
+.env

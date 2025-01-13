@@ -1,0 +1,297 @@
+[
+    {
+        "produit_id": "P001",
+        "nom_produit": "T-shirt",
+        "categorie": "Vêtements",
+        "prix": 19.99,
+        "quantite_vendue": 150,
+        "date_vente": "2023-07-15",
+        "client_id": "C001",
+        "age_client": 25,
+        "sexe_client": "F",
+        "localisation": "Paris",
+        "saison": "Été"
+    },
+    {
+        "produit_id": "P002",
+        "nom_produit": "Jeans",
+        "categorie": "Vêtements",
+        "prix": 49.99,
+        "quantite_vendue": 80,
+        "date_vente": "2023-07-15",
+        "client_id": "C002",
+        "age_client": 30,
+        "sexe_client": "M",
+        "localisation": "Lyon",
+        "saison": "Été"
+    },
+    {
+        "produit_id": "P003",
+        "nom_produit": "Sweat-shirt",
+        "categorie": "Vêtements",
+        "prix": 29.99,
+        "quantite_vendue": 100,
+        "date_vente": "2023-11-20",
+        "client_id": "C003",
+        "age_client": 22,
+        "sexe_client": "F",
+        "localisation": "Marseille",
+        "saison": "Automne"
+    },
+    {
+        "produit_id": "P004",
+        "nom_produit": "Veste",
+        "categorie": "Vêtements",
+        "prix": 79.99,
+        "quantite_vendue": 50,
+        "date_vente": "2023-12-05",
+        "client_id": "C004",
+        "age_client": 45,
+        "sexe_client": "M",
+        "localisation": "Lille",
+        "saison": "Hiver"
+    },
+    {
+        "produit_id": "P005",
+        "nom_produit": "Robe",
+        "categorie": "Vêtements",
+        "prix": 39.99,
+        "quantite_vendue": 200,
+        "date_vente": "2023-07-20",
+        "client_id": "C005",
+        "age_client": 28,
+        "sexe_client": "F",
+        "localisation": "Nice",
+        "saison": "Été"
+    },
+    {
+        "produit_id": "P006",
+        "nom_produit": "Chaussures",
+        "categorie": "Accessoires",
+        "prix": 59.99,
+        "quantite_vendue": 120,
+        "date_vente": "2023-04-10",
+        "client_id": "C006",
+        "age_client": 35,
+        "sexe_client": "M",
+        "localisation": "Bordeaux",
+        "saison": "Printemps"
+    }
+]
+
+Données de Vente avec Promotions
+[
+    {
+        "produit_id": "P007",
+        "nom_produit": "Casquette",
+        "categorie": "Accessoires",
+        "prix": 15.99,
+        "quantite_vendue": 300,
+        "date_vente": "2023-06-15",
+        "client_id": "C007",
+        "age_client": 21,
+        "sexe_client": "M",
+        "localisation": "Toulouse",
+        "saison": "Été",
+        "promotion": true,
+        "pourcentage_remise": 10
+    },
+    {
+        "produit_id": "P008",
+        "nom_produit": "Sandales",
+        "categorie": "Chaussures",
+        "prix": 24.99,
+        "quantite_vendue": 180,
+        "date_vente": "2023-07-10",
+        "client_id": "C008",
+        "age_client": 27,
+        "sexe_client": "F",
+        "localisation": "Montpellier",
+        "saison": "Été",
+        "promotion": false,
+        "pourcentage_remise": 0
+    },
+    {
+        "produit_id": "P009",
+        "nom_produit": "Bonnet",
+        "categorie": "Accessoires",
+        "prix": 12.99,
+        "quantite_vendue": 220,
+        "date_vente": "2023-12-18",
+        "client_id": "C009",
+        "age_client": 33,
+        "sexe_client": "F",
+        "localisation": "Grenoble",
+        "saison": "Hiver",
+        "promotion": true,
+        "pourcentage_remise": 15
+    }
+]
+
+Données de Vente avec Méthode de Paiement
+[
+    {
+        "produit_id": "P010",
+        "nom_produit": "Manteau",
+        "categorie": "Vêtements",
+        "prix": 99.99,
+        "quantite_vendue": 65,
+        "date_vente": "2023-11-05",
+        "client_id": "C010",
+        "age_client": 42,
+        "sexe_client": "M",
+        "localisation": "Strasbourg",
+        "saison": "Automne",
+        "methode_paiement": "Carte de crédit"
+    },
+    {
+        "produit_id": "P011",
+        "nom_produit": "Bottes",
+        "categorie": "Chaussures",
+        "prix": 89.99,
+        "quantite_vendue": 90,
+        "date_vente": "2023-11-10",
+        "client_id": "C011",
+        "age_client": 37,
+        "sexe_client": "F",
+        "localisation": "Rennes",
+        "saison": "Automne",
+        "methode_paiement": "PayPal"
+    },
+    {
+        "produit_id": "P012",
+        "nom_produit": "Écharpe",
+        "categorie": "Accessoires",
+        "prix": 19.99,
+        "quantite_vendue": 150,
+        "date_vente": "2023-12-01",
+        "client_id": "C012",
+        "age_client": 28,
+        "sexe_client": "F",
+        "localisation": "Nantes",
+        "saison": "Hiver",
+        "methode_paiement": "Espèces"
+    }
+]
+
+Données de Vente avec Fréquence d'Achat
+[
+    {
+        "produit_id": "P013",
+        "nom_produit": "Chemise",
+        "categorie": "Vêtements",
+        "prix": 29.99,
+        "quantite_vendue": 110,
+        "date_vente": "2023-05-20",
+        "client_id": "C013",
+        "age_client": 29,
+        "sexe_client": "M",
+        "localisation": "Lille",
+        "saison": "Printemps",
+        "frequence_achat": "Mensuel"
+    },
+    {
+        "produit_id": "P014",
+        "nom_produit": "Jupe",
+        "categorie": "Vêtements",
+        "prix": 34.99,
+        "quantite_vendue": 85,
+        "date_vente": "2023-05-22",
+        "client_id": "C014",
+        "age_client": 31,
+        "sexe_client": "F",
+        "localisation": "Rouen",
+        "saison": "Printemps",
+        "frequence_achat": "Occasionnel"
+    },
+    {
+        "produit_id": "P015",
+        "nom_produit": "Lunettes de soleil",
+        "categorie": "Accessoires",
+        "prix": 49.99,
+        "quantite_vendue": 140,
+        "date_vente": "2023-06-15",
+        "client_id": "C015",
+        "age_client": 24,
+        "sexe_client": "M",
+        "localisation": "Nice",
+        "saison": "Été",
+        "frequence_achat": "Mensuel"
+    }
+]
+
+Données de Vente avec Satisfaction Client
+[
+    {
+        "produit_id": "P016",
+        "nom_produit": "Montre",
+        "categorie": "Accessoires",
+        "prix": 199.99,
+        "quantite_vendue": 40,
+        "date_vente": "2023-09-15",
+        "client_id": "C016",
+        "age_client": 35,
+        "sexe_client": "M",
+        "localisation": "Paris",
+        "saison": "Automne",
+        "satisfaction_client": 4.5
+    },
+    {
+        "produit_id": "P017",
+        "nom_produit": "Sac à main",
+        "categorie": "Accessoires",
+        "prix": 79.99,
+        "quantite_vendue": 100,
+        "date_vente": "2023-09-20",
+        "client_id": "C017",
+        "age_client": 40,
+        "sexe_client": "F",
+        "localisation": "Lyon",
+        "saison": "Automne",
+        "satisfaction_client": 4.8
+    },
+    {
+        "produit_id": "P018",
+        "nom_produit": "Gants",
+        "categorie": "Accessoires",
+        "prix": 29.99,
+        "quantite_vendue": 75,
+        "date_vente": "2023-10-10",
+        "client_id": "C018",
+        "age_client": 38,
+        "sexe_client": "F",
+        "localisation": "Marseille",
+        "saison": "Automne",
+        "satisfaction_client": 4.2
+    }
+]
+
+
+[
+    {"Produit": "Smartphone XYZ", "Ventes": 1500, "Préférences": "Jeunes adultes (70%)", "Tendances": "Forte demande pendant les fêtes", "Stock": 200},
+    {"Produit": "Montre connectée ABC", "Ventes": 800, "Préférences": "Professionnels (60%)", "Tendances": "Augmentation au printemps", "Stock": 50},
+    {"Produit": "Écouteurs sans fil DEF", "Ventes": 1200, "Préférences": "Jeunes adultes (80%)", "Tendances": "Forte demande pendant l'été", "Stock": 300},
+    {"Produit": "Ordinateur portable GHI", "Ventes": 600, "Préférences": "Étudiants (50%)", "Tendances": "Forte demande en septembre", "Stock": 100},
+    {"Produit": "Tablette JKL", "Ventes": 400, "Préférences": "Familles (40%)", "Tendances": "Demande constante", "Stock": 80},
+    {"Produit": "Téléviseur 4K MNO", "Ventes": 900, "Préférences": "Familles (60%)", "Tendances": "Forte demande pendant le Black Friday", "Stock": 150},
+    {"Produit": "Console de jeux PQR", "Ventes": 1100, "Préférences": "Adolescents (75%)", "Tendances": "Forte demande pendant les vacances", "Stock": 250},
+    {"Produit": "Appareil photo STU", "Ventes": 300, "Préférences": "Photographes amateurs (50%)", "Tendances": "Forte demande au printemps", "Stock": 60},
+    {"Produit": "Haut-parleur Bluetooth VWX", "Ventes": 1300, "Préférences": "Jeunes adultes (70%)", "Tendances": "Forte demande pendant l'été", "Stock": 400},
+    {"Produit": "Laptop Gaming YZA", "Ventes": 500, "Préférences": "Gamers (80%)", "Tendances": "Forte demande en fin d'année", "Stock": 90},
+    {"Produit": "Montre de sport BCD", "Ventes": 700, "Préférences": "Sportifs (65%)", "Tendances": "Forte demande au printemps", "Stock": 30},
+    {"Produit": "Chaussures de course EFG", "Ventes": 850, "Préférences": "Sportifs (70%)", "Tendances": "Forte demande en janvier", "Stock": 120},
+    {"Produit": "Sac à dos HIK", "Ventes": 450, "Préférences": "Étudiants (55%)", "Tendances": "Forte demande en septembre", "Stock": 200},
+    {"Produit": "Drone JLM", "Ventes": 250, "Préférences": "Photographes professionnels (40%)", "Tendances": "Forte demande pendant l'été", "Stock": 40},
+    {"Produit": "Clé USB KNO", "Ventes": 1500, "Préférences": "Professionnels (80%)", "Tendances": "Forte demande pendant la rentrée", "Stock": 500},
+    {"Produit": "Montre intelligente OPQ", "Ventes": 600, "Préférences": "Jeunes adultes (65%)", "Tendances": "Forte demande pendant les vacances", "Stock": 70},
+    {"Produit": "Tapis de yoga RST", "Ventes": 400, "Préférences": "Sportifs (50%)", "Tendances": "Forte demande en janvier", "Stock": 60},
+    {"Produit": "Caméra de sécurité UVW", "Ventes": 350, "Préférences": "Propriétaires de maison (55%)", "Tendances": "Forte demande pendant l'été", "Stock": 80},
+    {"Produit": "Chargeur sans fil XYZ", "Ventes": 950, "Préférences": "Utilisateurs de smartphones (75%)", "Tendances": "Forte demande pendant les fêtes", "Stock": 300},
+    {"Produit": "Livre électronique ABC", "Ventes": 700, "Préférences": "Lecteurs (60%)", "Tendances": "Forte demande pendant l'été", "Stock": 150},
+    {"Produit": "Console de jeux portable DEF", "Ventes": 800, "Préférences": "Enfants (70%)", "Tendances": "Forte demande pendant les vacances", "Stock": 200},
+    {"Produit": "Vêtements de sport GHI", "Ventes": 1200, "Préférences": "Sportifs (80%)", "Tendances": "Forte demande pendant le printemps", "Stock": 300},
+    {"Produit": "Appareil de cuisine JKL", "Ventes": 500, "Préférences": "Cuisiniers amateurs (60%)", "Tendances": "Forte demande pendant les fêtes", "Stock": 90}
+]
+
+
+
